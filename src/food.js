@@ -28,7 +28,7 @@ export const foodItem = [
     {
         "id": 1,
         "name": "Pancakes",
-        "category": "breakfast",
+        "food_Category": "Breakfast",
         "type": "veg",
         "quantity": 1,
         "image": img1,
@@ -37,7 +37,7 @@ export const foodItem = [
     {
         "id": 2,
         "name": "Chicken Soup",
-        "category": "soup",
+        "food_Category": "Soup",
         "type": "non_veg",
         "quantity": 1,
         "image": img2,
@@ -46,7 +46,7 @@ export const foodItem = [
     {
         "id": 3,
         "name": "Minestrone Soup",
-        "category": "soup",
+        "food_Category": "Soup",
         "type": "veg",
         "quantity": 1,
         "image": img3,
@@ -55,7 +55,7 @@ export const foodItem = [
     {
         "id": 4,
         "name": "Spaghetti Carbonara",
-        "category": "pasta",
+        "food_Category": "pasta",
         "type": "non_veg",
         "quantity": 1,
         "image": img4,
@@ -64,191 +64,192 @@ export const foodItem = [
     {
         "id": 5,
         "name": "Macaroni Pasta",
-        "category": "pasta",
+        "food_Category": "pasta",
         "type": "non_veg",
         "quantity": 1,
         "image": img5,
         "price": "28.000"
     },
     {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
+        "id": 6,
+        "name": "Chicken Pasta",
+        "food_Category": "pasta",
+        "type": "non_veg",
         "quantity": 1,
-        "image": img1,
+        "image": img6,
+        "price": "33.000"
+    },
+    {
+        "id": 7,
+        "name": "Butter Masala",
+        "food_Category": "Rice",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img7,
+        "price": "16.000"
+    },
+    {
+        "id": 8,
+        "name": "Chicken Briyani",
+        "food_Category": "Rice",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img8,
+        "price": "22.000"
+    },
+    {
+        "id": 9,
+        "name": "Cheese Pizza",
+        "food_Category": "Pizza",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img9,
+        "price": "27.000"
+    },
+    {
+        "id": 10,
+        "name": "Papperoni Pizza",
+        "food_Category": "Pizza",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img10,
+        "price": "30.000"
+    },
+    {
+        "id": 11,
+        "name": "Beef Burger",
+        "food_Category": "Burger",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img11,
+        "price": "22.000"
+    },
+    {
+        "id": 12,
+        "name": "Chicken Burger",
+        "food_Category": "Burger",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img12,
         "price": "20.000"
     },
     {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
+        "id": 13,
+        "name": "Tomato Soup",
+        "food_Category": "Soup",
         "type": "veg",
         "quantity": 1,
-        "image": img1,
+        "image": img13,
+        "price": "18.000"
+    },
+    {
+        "id": 14,
+        "name": "Salad Sandwich",
+        "food_Category": "Breakfast",
+        "type": "veg",
+        "quantity": 1,
+        "image": img14,
+        "price": "15.000"
+    },
+    {
+        "id": 15,
+        "name": "Mushroom Soup",
+        "food_Category": "Soup",
+        "type": "veg",
+        "quantity": 1,
+        "image": img15,
         "price": "20.000"
     },
     {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
+        "id": 16,
+        "name": "Chicken Masala",
+        "food_Category": "Rice",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img16,
+        "price": "25.000"
+    },
+    {
+        "id": 17,
+        "name": "Egg Sandwich",
+        "food_Category": "Breakfast",
         "type": "veg",
         "quantity": 1,
-        "image": img1,
+        "image": img17,
+        "price": "15.000"
+    },
+    {
+        "id": 18,
+        "name": "Creamy Pasta",
+        "food_Category": "pasta",
+        "type": "veg",
+        "quantity": 1,
+        "image": img18,
+        "price": "27.000"
+    },
+    {
+        "id": 19,
+        "name": "Garlic Bread",
+        "food_Category": "Breakfast",
+        "type": "veg",
+        "quantity": 1,
+        "image": img19,
+        "price": "18.000"
+    },
+    {
+        "id": 20,
+        "name": "Fish & Chips",
+        "food_Category": "Breakfast",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img20,
+        "price": "28.000"
+    },
+    {
+        "id": 21,
+        "name": "Chips Salad",
+        "food_Category": "Breakfast",
+        "type": "veg",
+        "quantity": 1,
+        "image": img21,
         "price": "20.000"
     },
     {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
+        "id": 22,
+        "name": "Vegetable Soup",
+        "food_Category": "Breakfast",
         "type": "veg",
         "quantity": 1,
-        "image": img1,
+        "image": img22,
+        "price": "18.000"
+    },
+    {
+        "id": 23,
+        "name": "Fried Rice",
+        "food_Category": "Rice",
+        "type": "non_veg",
+        "quantity": 1,
+        "image": img23,
         "price": "20.000"
     },
     {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
+        "id": 24,
+        "name": "Hawaiian Pizza",
+        "food_Category": "Pizza",
+        "type": "non_veg",
         "quantity": 1,
-        "image": img1,
-        "price": "20.000"
+        "image": img24,
+        "price": "27.000"
     },
     {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
+        "id": 25,
+        "name": "Caper Pasta",
+        "food_Category": "pasta",
         "type": "veg",
         "quantity": 1,
-        "image": img1,
-        "price": "20.000"
+        "image": img25,
+        "price": "30.000"
     },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
-    {
-        "id": 1,
-        "name": "Pancakes",
-        "category": "Breakfast",
-        "type": "veg",
-        "quantity": 1,
-        "image": img1,
-        "price": "20.000"
-    },
+];
 
-]
+export default foodItem;
