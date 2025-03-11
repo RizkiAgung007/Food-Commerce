@@ -1,5 +1,4 @@
 import React from 'react'
-import Img1 from '../assets/image1.avif'
 
 function Card({name,image,id,price}) {
     return (
