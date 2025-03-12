@@ -6,7 +6,7 @@ import { dataCont } from '../components/UserContext'
 import { foodItem } from '../food'
 
 const Navbar = () => {
-    let {inputBtn, setInputBtn, categories, setCategories} = useContext(dataCont)
+    let {inputBtn, setInputBtn, categories, setCategories, showCart, setShowCart} = useContext(dataCont)
     useEffect(()=> {
         let newList = foodItem.filter((item)=> item.name.includes(inputBtn) || item.name.toLocaleLowerCase().includes(inputBtn))
         setCategories(newList)
@@ -27,7 +27,7 @@ const Navbar = () => {
         </form>
         <div className='relative w-16 h-16 flex justify-center items-center mr-0 sm:mr-10 sm:pl-0 pl-2'>
             <span className='absolute sm:top-1 top-4 sm:right-2 right-4.5 font-bold text-green-900'>0</span>
-            <FaCartShopping className='w-8 h-8 text-green-500'/>
+            <FaCartShopping className='w-8 h-8 text-green-500 cursor-pointer' onClick={()=> setShowCart(true)}/>
         </div>
     </div>
   )
