@@ -32,7 +32,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img1,
-        "price": "18.000"
+        "price": 18000
     },
     {
         "id": 2,
@@ -41,7 +41,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img2,
-        "price": "26.000"
+        "price": 26000
     },
     {
         "id": 3,
@@ -50,7 +50,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img3,
-        "price": "22.000"
+        "price": 22000
     },
     {
         "id": 4,
@@ -59,7 +59,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img4,
-        "price": "34.000"
+        "price": 34000
     },
     {
         "id": 5,
@@ -68,7 +68,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img5,
-        "price": "28.000"
+        "price": 28000
     },
     {
         "id": 6,
@@ -77,7 +77,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img6,
-        "price": "33.000"
+        "price": 33000
     },
     {
         "id": 7,
@@ -86,7 +86,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img7,
-        "price": "16.000"
+        "price": 16000
     },
     {
         "id": 8,
@@ -95,7 +95,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img8,
-        "price": "22.000"
+        "price": 22000
     },
     {
         "id": 9,
@@ -104,7 +104,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img9,
-        "price": "27.000"
+        "price": 27000
     },
     {
         "id": 10,
@@ -113,7 +113,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img10,
-        "price": "30.000"
+        "price": 30000
     },
     {
         "id": 11,
@@ -122,7 +122,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img11,
-        "price": "22.000"
+        "price": 22000
     },
     {
         "id": 12,
@@ -131,7 +131,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img12,
-        "price": "20.000"
+        "price": 20000
     },
     {
         "id": 13,
@@ -140,7 +140,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img13,
-        "price": "18.000"
+        "price": 18000
     },
     {
         "id": 14,
@@ -149,7 +149,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img14,
-        "price": "15.000"
+        "price": 15000
     },
     {
         "id": 15,
@@ -158,7 +158,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img15,
-        "price": "20.000"
+        "price": 20000
     },
     {
         "id": 16,
@@ -167,7 +167,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img16,
-        "price": "25.000"
+        "price": 25000
     },
     {
         "id": 17,
@@ -176,7 +176,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img17,
-        "price": "15.000"
+        "price": 15000
     },
     {
         "id": 18,
@@ -185,7 +185,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img18,
-        "price": "27.000"
+        "price": 27000
     },
     {
         "id": 19,
@@ -194,7 +194,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img19,
-        "price": "18.000"
+        "price": 18000
     },
     {
         "id": 20,
@@ -203,7 +203,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img20,
-        "price": "28.000"
+        "price": 28000
     },
     {
         "id": 21,
@@ -212,7 +212,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img21,
-        "price": "20.000"
+        "price": 20000
     },
     {
         "id": 22,
@@ -221,7 +221,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img22,
-        "price": "18.000"
+        "price": 18000
     },
     {
         "id": 23,
@@ -230,7 +230,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img23,
-        "price": "20.000"
+        "price": 20000
     },
     {
         "id": 24,
@@ -239,7 +239,7 @@ export const foodItem = [
         "type": "non_veg",
         "quantity": 1,
         "image": img24,
-        "price": "27.000"
+        "price": 27000
     },
     {
         "id": 25,
@@ -248,7 +248,7 @@ export const foodItem = [
         "type": "veg",
         "quantity": 1,
         "image": img25,
-        "price": "30.000"
+        "price": 30000
     },
 ];
 

@@ -4,6 +4,7 @@ import { IoSearch } from 'react-icons/io5';
 import { FaCartShopping } from "react-icons/fa6";
 import { dataCont } from '../components/UserContext'
 import { foodItem } from '../food'
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
     let {inputBtn, setInputBtn, categories, setCategories, showCart, setShowCart} = useContext(dataCont)
@@ -11,6 +12,10 @@ const Navbar = () => {
         let newList = foodItem.filter((item)=> item.name.includes(inputBtn) || item.name.toLocaleLowerCase().includes(inputBtn))
         setCategories(newList)
     }, [inputBtn])
+    
+    let items = useSelector(state=> state.cart)
+    console.log(items)
+
   return (
     <div className='w-full h-24 flex justify-between items-center px-5 sm:px-8'>
         <div className='w-16 h-16 flex justify-center items-center rounded-sm ml-0 sm:ml-18 sm:pr-0 pr-2'>
@@ -26,7 +31,7 @@ const Navbar = () => {
             onChange={(e)=> setInputBtn(e.target.value)} value={inputBtn}></input>
         </form>
         <div className='relative w-16 h-16 flex justify-center items-center mr-0 sm:mr-10 sm:pl-0 pl-2'>
-            <span className='absolute sm:top-1 top-4 sm:right-2 right-4.5 font-bold text-green-900'>0</span>
+            <span className='absolute sm:top-1 top-4 sm:right-2 right-4.5 font-bold text-green-900'>{items.length}</span>
             <FaCartShopping className='w-8 h-8 text-green-500 cursor-pointer' onClick={()=> setShowCart(true)}/>
         </div>
     </div>
