@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { AddItem } from '../redux/cartSlice'
+import { toast } from 'react-toastify'
 
 function Card({name,image,id,price}) {
     let dispatch = useDispatch()
@@ -16,7 +17,8 @@ function Card({name,image,id,price}) {
                 Rp { price.toLocaleString("id-ID") }
             </div>
             <button className='w-full p-3 border border-green-500 hover:border-transparent hover:bg-green-500 hover:text-white rounded-2xl cursor-pointer transition-all'
-            onClick={() => dispatch(AddItem({id:id, name:name, image:image, price:price, qty:1}))}>
+            onClick={() => {dispatch(AddItem({id:id, name:name, image:image, price:price, qty:1}));
+            toast.success("item added")}}>
                 Add to cart
             </button>
         </div>

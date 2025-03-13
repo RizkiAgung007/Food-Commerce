@@ -3,6 +3,7 @@ import Image1 from '../assets/image1.avif'
 import { FaTrashAlt } from "react-icons/fa";
 import { useDispatch } from 'react-redux';
 import { DecreamentQty, IncreamentQty, RemoveItem } from '../redux/cartSlice';
+import { toast } from 'react-toastify';
 
 const CardItem = ({name, id, price, image, qty}) => {
     let dispatch = useDispatch()
@@ -31,7 +32,7 @@ const CardItem = ({name, id, price, image, qty}) => {
         </div>
         <div className='flex flex-col justify-start items-end sm:gap-14 gap-12'>
             <span className='font-semibold sm:text-sm  text-[10px] sm:pt-0 pt-2 text-gray-600'>Rp { price.toLocaleString("id-ID") }</span>
-            <FaTrashAlt className='sm:w-6 sm:h-6 w-5 h-5 text-red-600 cursor-pointer' onClick={()=> dispatch(RemoveItem(id))}/>
+            <FaTrashAlt className='sm:w-6 sm:h-6 w-5 h-5 text-red-600 cursor-pointer' onClick={()=> {dispatch(RemoveItem(id)); toast.error("Item Removed");}}/>
         </div>
     </div>
   )
